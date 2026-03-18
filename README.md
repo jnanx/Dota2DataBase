@@ -113,14 +113,4 @@ Used for:
 4. Data is mapped (DTO → Model)
 5. UI is updated
 
----
-
-## 💡 Purpose
-
-The project was developed as a diploma work to:
-
-* design a mobile application
-* work with APIs and cloud databases
-* implement MVVM architecture
-* improve Android development skills
 
