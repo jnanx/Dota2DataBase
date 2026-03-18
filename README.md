@@ -3,9 +3,11 @@
 ## 📌 Overview
 
 DotaGuides is a mobile application developed in Kotlin for Android.
-The app is designed to help players improve their gameplay by providing актуальную информацию о героях, предметах и матчах.
+The app is designed to help players improve their gameplay by providing Up-to-date information about heroes, items, and matches.
 
 It combines a local database, cloud storage, and external API to deliver real-time and structured game data.
+
+Explanatory Note in russian: https://www.dropbox.com/scl/fi/r1oi1p191jxdmgkz7lcve/404.docx?rlkey=uxxtbwjkztvxe99ajvhb34wm5&st=ev8qaz5m&dl=0
 
 ---
 
@@ -17,7 +19,6 @@ It combines a local database, cloud storage, and external API to deliver real-ti
 * **Firebase Realtime Database**
 * **Retrofit (OpenDota API)**
 * **Room (local database)**
-* **RecyclerView**
 
 ---
 
@@ -44,7 +45,7 @@ Used for storing:
 * abilities
 * talents
 
-Data is stored in **JSON format** and loaded in real time.
+Data is stored in **JSON format**.
 
 ---
 
@@ -114,34 +115,6 @@ Used for:
 
 ---
 
-## 🧪 Development Process
-
-The application was developed in several stages:
-
-* Data collection and API research
-* Firebase database creation and JSON import
-* UI design (Figma)
-* Implementation in Android Studio
-* Integration of Retrofit, Room, Firebase
-* MVVM structure implementation
-* Feature development (search, timers, matches)
-
----
-
-## 🔐 Requirements
-
-### Software
-
-* Android Studio (Flamingo or newer)
-* Android SDK
-
-### Device
-
-* Android 8.1 or higher
-* Internet connection required
-
----
-
 ## 💡 Purpose
 
 The project was developed as a diploma work to:
@@ -151,17 +124,3 @@ The project was developed as a diploma work to:
 * implement MVVM architecture
 * improve Android development skills
 
----
-
-## 🚀 Future Improvements
-
-* Better UI/UX
-* Improved caching system
-* Error handling and loading states
-* Additional filters and analytics
-
----
-
-## 👩‍💻 Author
-
-Maria Samar
